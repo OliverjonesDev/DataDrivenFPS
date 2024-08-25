@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\DataDrivenFPT.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\DataDrivenFPT.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\DataDrivenFPTEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\gitattributes" />
+    <None Include="..\..\gitignore" />
+    <None Include="..\..\README.md" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\DataDrivenFPT">
+      <UniqueIdentifier>{7411F260-502B-3179-B466-702833890A11}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\DataDrivenFPT\DataDrivenFPT.Build.cs">
+      <Filter>Source\DataDrivenFPT</Filter>
+    </None>
+    <Filter Include="Source\DataDrivenFPT\DataAssets">
+      <UniqueIdentifier>{42C8DACF-BBB7-3DAB-ACB2-E61AA7F91321}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\DataDrivenFPT\DataAssets\DA_GunStats.h">
+      <Filter>Source\DataDrivenFPT\DataAssets</Filter>
+    </ClInclude>
+    <Filter Include="Source\DataDrivenFPT\Private">
+      <UniqueIdentifier>{B497A1E0-4429-312F-9E0A-A95706C8C8E2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\DataDrivenFPT\Private\DataDrivenFPT.cpp">
+      <Filter>Source\DataDrivenFPT\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DataDrivenFPT\Private\DataDrivenFPTCharacter.cpp">
+      <Filter>Source\DataDrivenFPT\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DataDrivenFPT\Private\DataDrivenFPTGameMode.cpp">
+      <Filter>Source\DataDrivenFPT\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DataDrivenFPT\Private\DataDrivenFPTPlayerController.cpp">
+      <Filter>Source\DataDrivenFPT\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DataDrivenFPT\Private\DataDrivenFPTProjectile.cpp">
+      <Filter>Source\DataDrivenFPT\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DataDrivenFPT\Private\TP_PickUpComponent.cpp">
+      <Filter>Source\DataDrivenFPT\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DataDrivenFPT\Private\TP_WeaponComponent.cpp">
+      <Filter>Source\DataDrivenFPT\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\DataDrivenFPT\Private\GameplayAbilities">
+      <UniqueIdentifier>{A2743303-6B33-37C1-832A-B3B4B4CA5BC8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\DataDrivenFPT\Private\GameplayAbilities\GA_ShootProjectile.cpp">
+      <Filter>Source\DataDrivenFPT\Private\GameplayAbilities</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DataDrivenFPT\Private\GameplayAbilities\GA_ShootProjectile.h">
+      <Filter>Source\DataDrivenFPT\Private\GameplayAbilities</Filter>
+    </ClInclude>
+    <Filter Include="Source\DataDrivenFPT\Public">
+      <UniqueIdentifier>{FF0DA61B-37D1-330C-B493-FCC8EE157567}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\DataDrivenFPT\Public\DataDrivenFPT.h">
+      <Filter>Source\DataDrivenFPT\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DataDrivenFPT\Public\DataDrivenFPTCharacter.h">
+      <Filter>Source\DataDrivenFPT\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DataDrivenFPT\Public\DataDrivenFPTGameMode.h">
+      <Filter>Source\DataDrivenFPT\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DataDrivenFPT\Public\DataDrivenFPTPlayerController.h">
+      <Filter>Source\DataDrivenFPT\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DataDrivenFPT\Public\DataDrivenFPTProjectile.h">
+      <Filter>Source\DataDrivenFPT\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DataDrivenFPT\Public\I_Damageable.cpp">
+      <Filter>Source\DataDrivenFPT\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DataDrivenFPT\Public\I_Damageable.h">
+      <Filter>Source\DataDrivenFPT\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DataDrivenFPT\Public\TP_PickUpComponent.h">
+      <Filter>Source\DataDrivenFPT\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DataDrivenFPT\Public\TP_WeaponComponent.h">
+      <Filter>Source\DataDrivenFPT\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
